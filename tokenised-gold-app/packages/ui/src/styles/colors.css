@@ -4,21 +4,21 @@
   --gold500: rgba(219, 195, 147, 1);
   --gold300: rgba(232, 215, 189, 1);
   --gold100: rgba(243, 236, 218, 1);
-  --PIFGold: rgba(196, 152, 79, 1);
-  --gold900Opc20: rgba(197, 153, 80, 0.2);
-  --gold900Opc60: rgba(197, 153, 80, 0.6);
-  --gold900Opc40: rgba(197, 153, 80, 0.4);
+  --gold800: rgba(196, 152, 79, 1);
+  --gold900token20: rgba(197, 153, 80, 0.2);
+  --gold900token60: rgba(197, 153, 80, 0.6);
+  --gold900token40: rgba(197, 153, 80, 0.4);
 
   --darkGold900: rgba(204, 134, 34, 1);
   --darkGold700: rgba(215, 158, 79, 1);
   --darkGold500: rgba(224, 182, 123, 1);
   --darkGold300: rgba(234, 204, 163, 1);
   --darkGold100: rgba(246, 230, 212, 1);
-  --darkGold900Opc20: rgba(204, 134, 34, 0.2);
+  --darkGold900token20: rgba(204, 134, 34, 0.2);
 
   --accentGoldDark: rgba(72, 41, 18, 1);
   --accentGoldMid: rgba(254, 159, 86, 1);
-  --accentGoldMidOpc20: rgba(254, 159, 86, 0.2);
+  --accentGoldMidtoken20: rgba(254, 159, 86, 0.2);
   --accentGoldLow: rgba(255, 211, 153, 1);
 
   --indigoDark: rgba(12, 1, 56, 1);
@@ -36,7 +36,7 @@
   --redMedium: rgba(179, 29, 66, 1);
   --redNeutral: rgba(235, 56, 101, 1);
   --redLight: rgba(240, 167, 185, 1);
-  --redDMediumOpc20: rgba(179, 29, 66, 0.2);
+  --redDMediumtoken20: rgba(179, 29, 66, 0.2);
 
   --purpleDark: rgba(42, 0, 56, 1);
   --purpleMedium: rgba(96, 0, 128, 1);
@@ -44,8 +44,8 @@
   --purpleLight: rgba(245, 214, 255, 1);
 
   --eggShellNeutral: rgba(255, 253, 244, 1);
-  --eggShellNeutralOpc20: rgba(255, 253, 244, 0.2);
-  --eggShellNeutralOpc40: rgba(255, 253, 244, 0.4);
+  --eggShellNeutraltoken20: rgba(255, 253, 244, 0.2);
+  --eggShellNeutraltoken40: rgba(255, 253, 244, 0.4);
 
   --grey900: rgba(24, 23, 23, 1);
   --grey700: rgba(71, 71, 71, 1);
@@ -53,11 +53,11 @@
   --grey300: rgba(173, 173, 173, 1);
   --grey100: rgba(227, 227, 227, 1);
   --grey50: rgba(242, 242, 242, 1);
-  --grey700Opc30: rgba(71, 71, 71, 0.3);
-  --grey900Opc20: rgba(24, 23, 23, 0.2);
-  --grey900Opc40: rgba(24, 23, 23, 0.4);
-  --grey900Opc60: rgba(24, 23, 23, 0.6);
-  --grey900Opc80: rgba(24, 23, 23, 0.8);
+  --grey700token30: rgba(71, 71, 71, 0.3);
+  --grey900token20: rgba(24, 23, 23, 0.2);
+  --grey900token40: rgba(24, 23, 23, 0.4);
+  --grey900token60: rgba(24, 23, 23, 0.6);
+  --grey900token80: rgba(24, 23, 23, 0.8);
   --greyBar: rgba(217, 217, 217, 0.2);
 
   --surfaceSelected: rgba(197, 153, 80, 1);
@@ -115,8 +115,8 @@
   --errorStroke: rgba(179, 29, 66, 1);
 
   --raspberry: rgba(235, 56, 101, 1);
-  --darkOpc40: rgba(0, 0, 0, 0.4);
-  --darkOpc20: rgba(0, 0, 0, 0.2);
+  --darktoken40: rgba(0, 0, 0, 0.4);
+  --darktoken20: rgba(0, 0, 0, 0.2);
 
   --indicatorYear: rgba(208, 213, 221, 0.2);
   --trendSelectorBtn: rgba(51, 43, 28, 1);
