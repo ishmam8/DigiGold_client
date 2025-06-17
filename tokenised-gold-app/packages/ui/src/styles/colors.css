@@ -89,6 +89,9 @@
   --strokeTertiaryLight: rgba(255, 253, 244, 0.2);
   --strokeGold: rgba(197, 153, 80, 0.6);
 
+  --inputBackground: rgb(245, 235, 216);
+  --inputBorder: rgb(214, 198, 168);
+  --inputText: rgb(168, 154, 140);
   --textSecondary: rgba(255, 253, 244, 0.2);
   --textSecondarySelected: rgba(255, 253, 244, 0.2);
   --textSecondaryDisabled: rgba(117, 117, 117, 1);
@@ -96,7 +99,7 @@
   --bgDark: rgba(24, 23, 23, 1);
   --bgLight: rgba(255, 253, 244, 1);
 
-  --cardBgDark: rgba(1, 50, 44, 1);
+  --cardBgDark: rgba(232, 215, 189, 1);
   --cardBgLight: rgba(137, 255, 229, 1);
 
   --overlayBlackDark: rgba(24, 23, 23, 0.6);
@@ -122,4 +125,10 @@
   --trendSelectorBtn: rgba(51, 43, 28, 1);
   --haulMedium: rgba(219, 195, 147, 1);
   --haulLong: rgba(179, 29, 66, 1);
+
+  --premium-gold: rgba(197, 153, 80, 1);
+  --premium-black: rgb(18, 18, 18);
+  --pure-black: rgb(0, 0, 0);
+  --warm-beige: rgb(245, 235, 216);
+  --premium-white: rgb(255, 255, 255);
 }
