@@ -118,13 +118,10 @@ export const Benefits: React.FC = () => {
       id='benefits'
       className='py-32 bg-gradient-to-br from-[rgb(245,235,216)] via-white to-[rgb(245,235,216)] relative overflow-hidden'
     >
-      {/* Background decoration */}
+      {/* Simplified background decoration */}
       <div className='absolute inset-0'>
-        <div className='absolute top-40 left-20 w-96 h-96 bg-gradient-to-r from-[rgb(197,153,80)]/10 to-[rgb(255,215,0)]/5 rounded-full blur-3xl animate-float'></div>
-        <div
-          className='absolute bottom-40 right-20 w-80 h-80 bg-gradient-to-r from-[rgb(255,215,0)]/10 to-[rgb(197,153,80)]/5 rounded-full blur-3xl animate-float'
-          style={{ animationDelay: '3s' }}
-        ></div>
+        <div className='absolute top-40 left-20 w-96 h-96 bg-gradient-to-r from-[rgb(197,153,80)]/10 to-[rgb(255,215,0)]/5 rounded-full blur-3xl'></div>
+        <div className='absolute bottom-40 right-20 w-80 h-80 bg-gradient-to-r from-[rgb(255,215,0)]/10 to-[rgb(197,153,80)]/5 rounded-full blur-3xl'></div>
       </div>
 
       <div className='container mx-auto px-6 lg:px-8 relative z-10'>
@@ -149,14 +146,14 @@ export const Benefits: React.FC = () => {
           {benefits.map((benefit, index) => (
             <Card
               key={index}
-              className='group hover-lift bg-white/90 backdrop-blur-sm border-2 border-[rgb(245,235,216)] hover:border-[rgb(197,153,80)]/50 transition-all duration-500 overflow-hidden'
+              className='group bg-white/90 backdrop-blur-sm border-2 border-[rgb(245,235,216)] hover:border-[rgb(197,153,80)]/50 transition-all duration-300 overflow-hidden hover:shadow-lg'
             >
               <CardContent className='p-8 relative'>
-                {/* Gradient overlay */}
-                <div className='absolute inset-0 bg-gradient-to-br from-transparent to-[rgb(197,153,80)]/5 opacity-0 group-hover:opacity-100 transition-opacity duration-500'></div>
+                {/* Simplified gradient overlay */}
+                <div className='absolute inset-0 bg-gradient-to-br from-transparent to-[rgb(197,153,80)]/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300'></div>
 
                 <div
-                  className={`w-16 h-16 bg-gradient-to-r ${benefit.color} rounded-2xl flex items-center justify-center mb-6 group-hover:scale-110 transition-transform duration-500 shadow-lg relative z-10`}
+                  className={`w-16 h-16 bg-gradient-to-r ${benefit.color} rounded-2xl flex items-center justify-center mb-6 group-hover:scale-105 transition-transform duration-300 shadow-lg relative z-10`}
                 >
                   <benefit.icon className='w-8 h-8 text-white' />
                 </div>
@@ -178,8 +175,8 @@ export const Benefits: React.FC = () => {
           ))}
         </div>
 
-        {/* Enhanced stats section */}
-        <div className='bg-white rounded-3xl p-12 lg:p-16 premium-shadow relative overflow-hidden'>
+        {/* Simplified stats section */}
+        <div className='bg-white rounded-3xl p-12 lg:p-16 shadow-xl relative overflow-hidden'>
           <div className='absolute inset-0 bg-gradient-to-br from-[rgb(197,153,80)]/5 to-transparent'></div>
 
           <div className='text-center mb-12 relative z-10'>
@@ -194,7 +191,7 @@ export const Benefits: React.FC = () => {
 
           <div className='grid grid-cols-2 lg:grid-cols-4 gap-8 relative z-10'>
             <div className='text-center group'>
-              <div className='text-5xl font-bold gold-gradient mb-3 group-hover:scale-110 transition-transform duration-300'>
+              <div className='text-5xl font-bold gold-gradient mb-3 group-hover:scale-105 transition-transform duration-300'>
                 99.99%
               </div>
               <div className='text-lg font-semibold text-[rgb(18,18,18)] mb-1'>
@@ -205,7 +202,7 @@ export const Benefits: React.FC = () => {
               </div>
             </div>
             <div className='text-center group'>
-              <div className='text-5xl font-bold gold-gradient mb-3 group-hover:scale-110 transition-transform duration-300'>
+              <div className='text-5xl font-bold gold-gradient mb-3 group-hover:scale-105 transition-transform duration-300'>
                 0.1%
               </div>
               <div className='text-lg font-semibold text-[rgb(18,18,18)] mb-1'>
@@ -216,7 +213,7 @@ export const Benefits: React.FC = () => {
               </div>
             </div>
             <div className='text-center group'>
-              <div className='text-5xl font-bold gold-gradient mb-3 group-hover:scale-110 transition-transform duration-300'>
+              <div className='text-5xl font-bold gold-gradient mb-3 group-hover:scale-105 transition-transform duration-300'>
                 150+
               </div>
               <div className='text-lg font-semibold text-[rgb(18,18,18)] mb-1'>
@@ -227,7 +224,7 @@ export const Benefits: React.FC = () => {
               </div>
             </div>
             <div className='text-center group'>
-              <div className='text-5xl font-bold gold-gradient mb-3 group-hover:scale-110 transition-transform duration-300'>
+              <div className='text-5xl font-bold gold-gradient mb-3 group-hover:scale-105 transition-transform duration-300'>
                 $100M
               </div>
               <div className='text-lg font-semibold text-[rgb(18,18,18)] mb-1'>
